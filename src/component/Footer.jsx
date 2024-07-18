@@ -100,7 +100,7 @@ import { Bio } from '../data/constants';
 import { FacebookRounded, Instagram, LinkedIn, Twitter } from '@mui/icons-material';
 
 const FooterContainer = styled.footer`
-  background-color: ${({ theme }) => theme.footer_bg};
+  ${'' /* background-color: ${({ theme }) => theme.footer_bg}; */}
   padding: 20px 0;
   display: flex;
   justify-content: center;

@@ -88,7 +88,10 @@ const EducationCard = ({ education }) => {
   return (
     <VerticalTimelineElement
       iconStyle={{
-        background: 'rgb(33, 150, 243)',
+      backgroundImage: `url(${education.img})`,
+      backgroundSize: 'cover',
+      backgroundColor: 'rgba(23,92,230,0.15)',
+      
         color: '#fff',
       }}
       contentStyle={{
@@ -103,6 +106,7 @@ const EducationCard = ({ education }) => {
         backgroundColor: 'rgba(255,255,255,0.125)',
         border: '1px solid rgba(255,255,255,0.125)',
         borderRadius: '5px',
+        // backgroundImage:education?.img,
       }}
       contentArrowStyle={{
         borderRight: '7px solid rgb(255,255,255,0.125)',

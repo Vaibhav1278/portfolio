@@ -218,8 +218,8 @@ export const experiences = [
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
+    role: "Backend Developer ",
+    company: "IIIT DM Heackathon 2023 Heackbyte",
     date: "June 2023 - Nov 2023",
     desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
     skills: [
@@ -257,8 +257,8 @@ export const experiences = [
   {
     id: 2,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
+    role: "Fullstack Developer",
+    company: "college Minor Project",
     date: "June 2021 - Oct 2021",
     desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
     skills: [
@@ -325,7 +325,7 @@ export const education = [
     img: "https://collegekhabri.com/data/jabalpur-engineering-college-jabalpur-logo.gif",
     school: "Jabalpur Engineering College(JEC), Jabalpur (M.P.)", 
     date: "Oct 2021 - Sep 2025",
-    grade: "6.51 CGPA",
+    grade: "6.71 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Information Technology and Engineering at Jabalpur Engineering College, Jabalpur. I have completed 6 semesters and have a CGPA of 6.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. , where I am learning and working on exciting projects with a team of talented developers.",
     degree: "Bachelor of Technology - BTech, Information Technology and Engineering",
   },
@@ -350,6 +350,37 @@ export const education = [
 ];
 
 export const projects = [
+
+
+
+
+  {
+    id: 9,
+    title: "Mern Realstate",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+    image:
+      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      video:"https://drive.google.com/file/d/1cVSZy8Mm6pArH3Av0w5vmGqjat9BNF2Q/preview",
+
+    tags: [
+      
+      
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "JWT",
+      "redux",
+      "Tailwind",
+      "firebase"
+
+    ],
+    category: "web app",
+    github: "https://github.com/102vansh/mern-realstate.git",
+    webapp: "https://trackify-management.netlify.app/",
+  },
   {
     id: 11,
     title: "Job Seaker App",
@@ -359,7 +390,7 @@ export const projects = [
     image:
       "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
 
-    video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
+    video:"https://drive.google.com/file/d/1heWSG_0FwaH4iojZXgRdd1nm82JpTVEN/preview",
 
     tags: [
       "React Js",
@@ -381,7 +412,7 @@ export const projects = [
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
     image:
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-      video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
+      video:"  https://drive.google.com/file/d/1JNMJLD7Zz9EYY4oow6YRqToxQTUQ2U_B/preview",
 
     tags: [
       
@@ -406,11 +437,11 @@ export const projects = [
       "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
     image:
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "JWT","stripe"],
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "JWT","stripe","socketio"],
     category: "web app",
     github: "https://github.com/102vansh/mern-food-odering-app.git",
     webapp: "https://podstream.netlify.app/",
-    video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
+    video:"https://drive.google.com/file/d/1quX6YAb8KpAfAatG4qTvZflFHuewUBX6/preview",
 
     member: [
       {
@@ -435,7 +466,7 @@ export const projects = [
       "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
     image:
       "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-      video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
+      video:"https://drive.google.com/file/d/1NAN9yQ2vMoYRF9PZcN2L5GpTQsdmOCw7/preview",
     tags: [
       "React Js",
       "MongoDb",
@@ -456,7 +487,7 @@ export const projects = [
       "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
     image:
       "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-      video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
+      video:"https://drive.google.com/file/d/10za3zP0eBfe6yoW-_n49CxzJIwpnlz0s/preview",
 
     tags: ["Reactjs","Redux","Nodejs","Expressjs","MongoDB","TailwindCSS","JWT"],
     category: "web app",
@@ -487,7 +518,7 @@ export const projects = [
       "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
     tags: ["nodejs", "expressjs", "mongoDB", "reactjs"],
     category: "android app",
-    video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
+    video:"https://drive.google.com/file/d/1c0cJYQs4C4i6H3_q-XZ91vyBc3zGIzjS/preview",
     github: "https://github.com/102vansh/mernevents.git",
     webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
