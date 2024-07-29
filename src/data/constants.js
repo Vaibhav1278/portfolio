@@ -351,7 +351,32 @@ export const education = [
 
 export const projects = [
 
+  {
+    id: 11,
+    title: "Course Bundler",
+    date: "Jan 2024 - Dec 2023",
+    description:
+      "An e-learning platform is a web-based educational system designed to deliver, track, and manage educational courses and training programs. It offers interactive and multimedia-rich content, such as videos, quizzes, and assignments, allowing learners to study at their own pace. The platform typically ",
+    image:
+      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
 
+    video:"https://drive.google.com/file/d/1bQCX9C8VS9chWHwJdGHa9--jvPzsOwxh/preview",
+
+    tags: [
+      "React Js",
+      "redux-toolkit",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "cloudinary",
+      "chakra ui",
+      "Razorpay",
+      
+    ],
+    category: "web app",
+    github: "https://github.com/102vansh/Coursebundler.git",
+    webapp: "https://decisionhub.netlify.app/",
+  },
 
 
   {
@@ -360,9 +385,9 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-      video:"https://drive.google.com/file/d/1cVSZy8Mm6pArH3Av0w5vmGqjat9BNF2Q/preview",
+    // image:
+    //   "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      video:"https://drive.google.com/file/d/1Ml-2g-G5_dSlszXe1nXGJbDbAEl_oVwt/preview",
 
     tags: [
       
@@ -380,6 +405,38 @@ export const projects = [
     category: "web app",
     github: "https://github.com/102vansh/mern-realstate.git",
     webapp: "https://trackify-management.netlify.app/",
+  },
+
+
+
+  {
+    id: 0,
+    title: "Food Odering App",
+    date: "Apr 2023 - May 2023",
+    description:
+      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "JWT","stripe","socketio"],
+    category: "web app",
+    github: "https://github.com/102vansh/mern-food-odering-app.git",
+    webapp: "https://podstream.netlify.app/",
+    video:"https://drive.google.com/file/d/1quX6YAb8KpAfAatG4qTvZflFHuewUBX6/preview",
+
+    member: [
+      {
+        name: "Rishav Chanda",
+        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        github: "https://github.com/rishavchanda/",
+      },
+      {
+        name: "Upasana Chaudhuri",
+        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+        github: "https://github.com/upasana0710",
+      },
+    ],
   },
   {
     id: 11,
@@ -429,35 +486,7 @@ export const projects = [
     github: "https://github.com/102vansh/mern_blogplatform.git",
     webapp: "https://trackify-management.netlify.app/",
   },
-  {
-    id: 0,
-    title: "Food Odering App",
-    date: "Apr 2023 - May 2023",
-    description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "JWT","stripe","socketio"],
-    category: "web app",
-    github: "https://github.com/102vansh/mern-food-odering-app.git",
-    webapp: "https://podstream.netlify.app/",
-    video:"https://drive.google.com/file/d/1quX6YAb8KpAfAatG4qTvZflFHuewUBX6/preview",
-
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
-  },
+  
   {
     id: 1,
     title: "Ecomerse Shoppy",
@@ -543,7 +572,7 @@ export const projects = [
       "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
     image:
       "",
-      video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
+      // video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
     tags: [ "Node JS","MongoDb", "Express Js", "resend","Jwt","postman","winston","cloudinary"],
     category: "web app",
     github: "https://github.com/102vansh/e-learning-backend.git",
@@ -559,7 +588,7 @@ export const projects = [
       "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
     tags: [ "Node JS","Expressjs","MongoDB","JWT","nodemailer","postman"],
     category: "web app",
-    video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
+    // video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
     github: "https://github.com/102vansh/Ecomerse-backend.git",
     webapp: "https://rishav-react-todo.netlify.app/",
   },
@@ -573,7 +602,7 @@ export const projects = [
     //   "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
     tags: ["Golang", "Kubernetes", "client-go"],
     category: "golang project",
-    video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
+    // video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
     github: "https://github.com/102vansh/expose-gocontroller.git",
     webapp: "https://breaking-bad-webapp.netlify.app",
   },
@@ -600,7 +629,7 @@ export const projects = [
     //   "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
     tags: ["golang", "kubernetes", "client-go"],
     category: "golang project",
-    video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
+    // video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
     github: "https://github.com/102vansh/scaler-go-operator.git",
     webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   },
@@ -615,7 +644,7 @@ export const projects = [
     //   "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
     tags: ["Html", "css", "javascript", "webRTC", "socket.io"],
     category: "web app",
-    video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
+    // video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
     github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
     webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   },
@@ -629,7 +658,7 @@ export const projects = [
     //   "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
     tags: ["golang", "kubernetes", "client-go","operator-sdk"],
     category: "golang project",
-    video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
+    // video:"https://drive.google.com/file/d/1F-ExLciioBht21Qd3fdcnN1OcZtPArrj/view?usp=drivesdk",
     github: "https://github.com/102vansh/text-to-pdf-go-operator.git",
     webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   },

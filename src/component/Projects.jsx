@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import { projects } from '../data/constants';
 import ProjectCard from './ProjectCard';
-import EarthCanvas from './Earth';
+// import EarthCanvas from './Earth';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -101,7 +101,7 @@ const Project = () => {
     {projects.filter((item)=>item.category === toggle).map((item)=><ProjectCard project={item}/> )}
 </CardContainer>
       </Wrapper>
-      <EarthCanvas />
+      {/* <EarthCanvas /> */}
     </Container>
   )
 }
