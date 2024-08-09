@@ -11,10 +11,10 @@ export const Bio = {
   github: "https://github.com/102vansh",
   resume:
     "https://drive.google.com/file/d/1heY4YcL31ytyEX14Vjqmz_Noe7eg8YqK/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+  linkedin: "https://www.linkedin.com/in/vansh-jain-1a465a258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  insta: "https://www.instagram.com/vansh.a.jain?igsh=MW0zajVmMWFhcnFuNg==",
+  // facebook: "https://www.facebook.com/rishav.chanda.165/",
 };
 
 export const skills = [
@@ -360,7 +360,7 @@ export const projects = [
     image:
       "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
 
-    video:"https://drive.google.com/file/d/1bQCX9C8VS9chWHwJdGHa9--jvPzsOwxh/preview",
+    video:"https://drive.google.com/file/d/15SQl7HF2ikyYOyzWYzDY6nRSgBvHb20g/preview",
 
     tags: [
       "React Js",
@@ -371,6 +371,7 @@ export const projects = [
       "cloudinary",
       "chakra ui",
       "Razorpay",
+      "docker"
       
     ],
     category: "web app",
@@ -387,7 +388,8 @@ export const projects = [
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
     // image:
     //   "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-      video:"https://drive.google.com/file/d/1Ml-2g-G5_dSlszXe1nXGJbDbAEl_oVwt/preview",
+      video:"https://drive.google.com/file/d/134uy51h1gQDC_d6QHtoEtp-WToe8vktj/preview",
+      
 
     tags: [
       
@@ -399,7 +401,8 @@ export const projects = [
       "JWT",
       "redux",
       "Tailwind",
-      "firebase"
+      "firebase",
+      'docker'
 
     ],
     category: "web app",
@@ -417,11 +420,11 @@ export const projects = [
       "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
     image:
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "JWT","stripe","socketio"],
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "JWT","stripe","socketio","docker"],
     category: "web app",
     github: "https://github.com/102vansh/mern-food-odering-app.git",
     webapp: "https://podstream.netlify.app/",
-    video:"https://drive.google.com/file/d/1quX6YAb8KpAfAatG4qTvZflFHuewUBX6/preview",
+    video:"https://drive.google.com/file/d/1tH5_GeJxeBuR4-B35DtYUdlQ2PGM3SQb/preview",
 
     member: [
       {
@@ -469,7 +472,7 @@ export const projects = [
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
     image:
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-      video:"  https://drive.google.com/file/d/1JNMJLD7Zz9EYY4oow6YRqToxQTUQ2U_B/preview",
+      video:"https://drive.google.com/file/d/1B2GnPEzkQbDNesRqwVsqdhkk6DXcOa0F/preview",
 
     tags: [
       
