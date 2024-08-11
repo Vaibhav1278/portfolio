@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/102vansh",
   resume:
-    "https://drive.google.com/file/d/1heY4YcL31ytyEX14Vjqmz_Noe7eg8YqK/view?usp=drive_link",
+    "https://drive.google.com/file/d/17bJSkgc_VyJqZdk4h0mrC3-H7vF-kg9D/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/vansh-jain-1a465a258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/vansh.a.jain?igsh=MW0zajVmMWFhcnFuNg==",
