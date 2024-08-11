@@ -63,7 +63,7 @@ import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import { darkTheme } from './utils/Themes';
 import Navbar from './component/Navbar';
-import { BrowserRouter,HashRouter } from 'react-router-dom';
+import { Router } from 'react-router-dom';
 import Hero from './component/section/Hero';
 import Skills from './component/Skills';
 import Experience from './component/Experience';
@@ -92,7 +92,7 @@ const Wrapper = styled.div`
 const App = () => {
   return (
     <ThemeProvider theme={darkTheme}>
-      <HashRouter>
+      <Router>
         <Navbar />
         <Body>
           <div>
@@ -108,7 +108,7 @@ const App = () => {
             <Footer />
           </div>
         </Body>
-      </HashRouter>
+      </Router>
       <Toaster />
     </ThemeProvider>
   );
