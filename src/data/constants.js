@@ -253,6 +253,26 @@ export const experiences = [
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
   },
+
+  {
+    id: 2,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
+    role: "Fullstack Developer",
+    company: "Hosho Digital",
+    date: "september 2024 - december 2021",
+    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
+    skills: [
+      "Android",
+      "Java",
+      "Kotlin",
+      "XML",
+      "Node Js",
+      "Cloud Firestore",
+      "Firebase",
+      "Figma",
+    ],
+    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+  },
   
 ];
 
@@ -297,7 +317,7 @@ export const projects = [
     image:
       "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
 
-    video:"https://drive.google.com/file/d/15SQl7HF2ikyYOyzWYzDY6nRSgBvHb20g/preview",
+    video:"https://drive.google.com/file/d/1bQCX9C8VS9chWHwJdGHa9--jvPzsOwxh/preview",
 
     tags: [
       "React Js",
@@ -325,7 +345,7 @@ export const projects = [
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
     // image:
     //   "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-      video:"https://drive.google.com/file/d/134uy51h1gQDC_d6QHtoEtp-WToe8vktj/preview",
+      video:"https://drive.google.com/file/d/1bQCX9C8VS9chWHwJdGHa9--jvPzsOwxh/preview",
       
 
     tags: [
@@ -361,7 +381,8 @@ export const projects = [
     category: "web app",
     github: "https://github.com/102vansh/mern-food-odering-app.git",
     webapp: "https://podstream.netlify.app/",
-    video:"https://drive.google.com/file/d/1tH5_GeJxeBuR4-B35DtYUdlQ2PGM3SQb/preview",
+    video:"https://drive.google.com/file/d/1quX6YAb8KpAfAatG4qTvZflFHuewUBX6/preview",
+    
 
     member: [
       {
@@ -409,7 +430,7 @@ export const projects = [
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
     image:
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-      video:"https://drive.google.com/file/d/1B2GnPEzkQbDNesRqwVsqdhkk6DXcOa0F/preview",
+      video:"https://drive.google.com/file/d/1JNMJLD7Zz9EYY4oow6YRqToxQTUQ2U_B/preview",
 
     tags: [
       
