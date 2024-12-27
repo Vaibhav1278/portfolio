@@ -230,7 +230,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Bio } from '../../data/constants'
-import download from '../../assets/download.jpeg'
+// import download from '../../assets/download.jpeg'
 import Typewriter from 'typewriter-effect'
 import HeroBgAnimation from '../../HeroBgAnimation'
 import {Tilt} from 'react-tilt'

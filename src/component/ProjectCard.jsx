@@ -173,11 +173,11 @@ const ProjectCard = ({ project }) => {
     
       ></iframe>
       {/* <Image src={project?.image}/> */}
-      <Tags>
+      {/* <Tags>
         {project?.tags.map((tag, index) => (
           <Tag key={index}>{tag}</Tag>
         ))}
-      </Tags>
+      </Tags> */}
       <Details>
         <Title>{project?.title}</Title>
         <Date>{project?.date}</Date>

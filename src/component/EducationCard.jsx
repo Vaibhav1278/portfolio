@@ -114,7 +114,7 @@ const EducationCard = ({ education }) => {
       date={education?.date}
     >
     <Top>
-        <Image src = {education.img} alt = {education.school} />
+        {/* <Image src = {education.img} alt = {education.school} /> */}
         <Body>
             <School>
               {education.school}
